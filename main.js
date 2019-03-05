@@ -22,3 +22,16 @@ printToDom('div1', iAmThursty(30));
 printToDom('div1', iAmThursty(79));
 
 // Bonus = printToDom function
+
+
+
+
+
+console.log (1 === '1');  // false
+// console.log (1 == '1'); // true - don't use because it's unsafe
+console.log (1 !== '2');  // true
+
+console.log('cats'.length); // how many characters in a string
+
+const quote = 'winter is coming';
+console.log(quote.indexOf('is'));
