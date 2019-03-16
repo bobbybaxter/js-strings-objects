@@ -23,10 +23,6 @@ printToDom('div1', iAmThursty(79));
 
 // Bonus = printToDom function
 
-
-
-
-
 console.log (1 === '1');  // false
 // console.log (1 == '1'); // true - don't use because it's unsafe
 console.log (1 !== '2');  // true
@@ -36,14 +32,9 @@ console.log('cats'.length); // how many characters in a string
 const quote = 'winter is coming';
 console.log(quote.indexOf('is'));
 
-
-
-
-
 const catName = () => {
     return 'killer';
 }
-
 
 const bucketOCats = {
     cat1: 'fluffy',
@@ -61,8 +52,6 @@ console.log(bucketOCats.cat4.water);
 
 // bracket notation
 console.log(bucketOCats['cat2']);
-
-
 
 
 let hitchhikers_guide = {
@@ -116,7 +105,6 @@ const answer4 = `Is Jeff the employee of the month? ` + employee.eom;
 
 // checks that all of my keys were added to the object
 console.log(employee);
-
 
 printToDom('div1', 'Answer 1: ');
 printToDom('div1', answer1);
